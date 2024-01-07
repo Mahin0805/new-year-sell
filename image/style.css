@@ -1,9 +1,11 @@
 div.benar{
- background-image: url('Banner.png');padding: 100px 150px 200px;margin: 30px 50px;width: 680px;height: 150px;
+ background-image: url('Banner.png');padding: 90px 200px 600px;margin: 70px 80px;width: 70%;height: 120px;
  background-size: cover;
  border-radius: 20px;
  background-position: center;
- background-color: linear-gradient(180deg, #1d034d 0%,)
+ background-color: linear-gradient(180deg, #1d034d5f 0%,)
 
 }
-#header{ text-align: center;;font-size: 60px;margin-top: 0.2px; font-weight: 700;}
+#header{ text-align: center;;font-size: 120px;; font-weight: 900;}
+
+div.off{ text-align: center;color: red;padding: 40px 50px;margin-top: 40px;}

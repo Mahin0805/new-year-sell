@@ -1,14 +1,34 @@
-div.benar{
+div#benar{
  background-image: url('Banner.png');padding: 90px 200px 600px;margin: 70px 80px;;height: 120px;
  background-size: cover;
  border-radius: 20px;
  background-position: center;
+ background-repeat: no-repeat;
  background-color: linear-gradient(180deg, #1d034d5f 0%,)
-
+ 
 }
 #header{ text-align: center;;font-size: 120px;; font-weight: 900;}
 
-div.off{ text-align: center;color: red;padding: 40px 50px;font-size: 65px;}
+div#off{ text-align: center;color: red;padding: 40px 50px;font-size: 65px;}
 
-div#ny{ background-image: url(New\ Year\ Photo.png); padding: 10px 50px 200px;margin: 10px 500px;height: 300px;
+div#ny{ background-image: url(New\ Year\ Photo.png); padding: 10px 50px 200px;margin: 10px 500px ;height: 300px;
     background-size: cover;background-position: center;}
+
+.multy-ac{
+    background-image: url(Group\ 70.png);padding: 100px 50px;margin: 10px 80px 70px;
+    background-position: right;
+    background-repeat: no-repeat;
+    block-size: 400px;
+    background-size: contain;
+
+}
+.multy-bc{ background-image: url(Vectorrr.png);padding: 90px 200px 600px;margin: 70px 80px;;height: 120px;
+    background-size: cover;
+    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;}
+
+.text{text-align: left; 
+   padding-top: 10px; margin-top: 10px;
+    margin-left: none; padding-left: 10px;}
+

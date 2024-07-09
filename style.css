@@ -1,32 +1,81 @@
-div#benar {
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('Banner.png');
-    padding: 90px 100px 600px;
-    margin: 50px 140px;
-    ;
-    height: 200px;
-    background-size: cover;
-    border-radius: 20px;
-    background-position: center;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin-bottom: 120px;
+}
+
+/* section 1 */
+
+.bannar {
+    background: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(image/Banner.png);
+    border-radius: 16px;
     background-repeat: no-repeat;
+    max-width: 1320px;
+    height: 600px;
+    margin: 50px auto;
+    text-align: center;
 }
 
-#header {
-    text-align: center;
-    ;
-    font-size: 120px;
+.bannar div {
+    padding: 180px 340px;
+}
+
+.bannar p {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.bannar h2 {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 72px;
     font-weight: 900;
+    line-height: 95px;
+
+    /* section 2 */
 }
 
-div#off {
+.off h2 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
     text-align: center;
-    color: red;
-    padding: 40px 50px;
-    font-size: 65px;
+    margin-bottom: 48px;
 }
 
-div#ny {
-    justify-items: center;
+.off :nth-child(2) {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: center;
 }
+
+.off :nth-child(3){
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.off div {
+    text-align: center;
+}
+
+/* section 3 */
 
 div.multy-ac {
     background-image: url(Group\ 70.png);
